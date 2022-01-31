@@ -1,0 +1,72 @@
+1) Calculadora 3D
+
+  • 💻 Página web que simula la forma y funcionalidad básica de una calculadora tradicional, es decir, ' + ' , ' - ' , ' / ' y ' * '. 👨🏾‍🏫
+
+  • rjrch123.github.io/calculadora-3d/
+
+2) 👨🏼‍🎨 Lets Draw 🎨
+
+  •👨🏼‍🎨 It is a virtual blackboard, where you can make 🖌 drawings through 🖱 the mouse. You have the option to choose 🎨 colors and line thickness.
+
+  • rjrch123.github.io/lets-draw/
+
+3) Pswd-Generator
+
+  • 🔒 Password generator 🔑 , is a page that helps generate passwords according to the options ⚙️ you choose (number of characters, with numbers, uppercase, lowercase and symbols)
+
+  • rjrch123.github.io/pswd-generator/
+
+4) I-drink-water
+
+  • 🧪 This app helps you count how much water you drink 🥤 in the day ☀️ and thus stay hydrated 💧 with the correct ✔️ amount. Ideal for kids and adults.
+
+  • rjrch123.github.io/i-drink-water/
+
+5) 👩🏽‍💻 RO-MD-LINKS
+
+  • Librería desarrollada de línea de comando (CLI) con Node. js, que lee y analiza archivos 📁 en formato Markdown 📑 dada una ruta, para verificar los links que contengan ,y así reportar algunas estadísticas.📊
+
+  •
+
+6) ♻️ ECOGRAM (Enveronmental Social Network) 
+
+  • Es una red social enfocada en crear una comunidad interesada en la preservación de nuestro único hogar "🌎El Planeta Tierra". Al crearse una cuenta, el usuario 👨🏽‍🦱 podrá editar su perfil, interactuar con otros usuarios y realizar publicaciones sobre noticias, tips, eventos, voluntariados, etc.
+
+  • https://rjrch123.github.io/ECOGRAM-Social-network/
+
+7) DATA-Studio-Ghibli
+
+  • 🎌 Studio Ghibli (スタジオジブリ) es un estudio de animación japonés muy reconocido por sus largometrajes como "Viaje de Chihiro" 🎎 Este proyecto tiene como finalidad brindar información sobre sus animaciones, personajes, estadísticas, y mucho más.🎌
+
+  • https://rjrch123.github.io/DATA-Studio-Ghibli/
+
+8) 🤖 Raffle Page
+
+  • 🤖 Raffle Page, has the function of facilitating online raffles 🍀 through a simple interface.
+
+  • https://rjrch123.github.io/Raffle-page/
+
+9) GAME-Studio-Ghibli
+
+  • 🎌 Studio Ghibli (スタジオジブリ) es un estudio de animación japonés🎎. Este proyecto es un juego interactivo sobre cuán rápido eres atrapando un Totoro; cuya finalidad en complementar otro proyecto sobre Data de las películas del Studio Ghibli.
+
+  • https://rjrch123.github.io/GAME-Studio-Ghibli/
+
+10) 🔒 BCS Verify®
+
+  • 🔒 BCS Verify® se enfoca en ayudar a los usuarios con cualquier tipo de tarjeta de crédito donde podrán bloquear y validar su tarjeta desde cualquier ordenador o dispositivo móvil. 💳✔
+
+  • rjrch123.github.io/lim016-card-validation/
+
+11) QUIZ-Studio-Ghibli
+
+  • 🎌 Studio Ghibli (スタジオジブリ) es un estudio de animación japonés🎎. Este proyecto es un juego interactivo basado en la idea de Trivias para dar a conocer cuanto sabes 🤷🏽‍♀️ sobre el tema; cuya finalidad en complementar otro proyecto sobre Data de las películas del Studio Ghibli.🎌
+
+  • rjrch123.github.io/quiz-studio-ghibli/
+
+12)
+
+  •
+
+  •
+
