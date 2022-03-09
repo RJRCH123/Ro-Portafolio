@@ -571,11 +571,11 @@ img {
   transform: translate(6px, -7px);
 }
 
-.qualification[data-content]{
+.qualification [data-content]{
   display: none;
 }
 
-.qualification__active [data-content]{
+.qualification__active[data-content]{
   display: block;
 }
 
