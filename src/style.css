@@ -19,7 +19,7 @@
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
-  --container-color: beige;
+  --container-color: rgb(248, 248, 248);
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -339,6 +339,15 @@ img {
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
   transition: .3s;
+}
+
+.button--white {
+  background-color: #FFF;
+  color: var(--first-color);
+}
+
+.button--white:hover {
+  background-color: #FFF;
 }
 
 .button--flex {
@@ -698,10 +707,89 @@ img {
 }
 
 /*==================== PORTFOLIO ====================*/
+.portfolio__container {
+  overflow: initial;
+}
 
+.portfolio__content {
+  padding: 0 1.5rem;
+}
+
+.portfolio__img {
+  width: 265px;
+  border-radius: .5rem;
+  justify-self: center;
+}
+
+.portfolio__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio__description {
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio__button:hover .button__icon {
+  transform: translateX(.25rem);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: '';
+}
+
+.swiper-portfolio-icon {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.swiper-button-prev {
+  left: -.5rem;
+}
+
+.swiper-button-next {
+  right: -.5rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color);
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet {
+  outline: none;
+}
 
 /*==================== PROJECT IN MIND ====================*/
+.project {
+  text-align: center;
+}
 
+.project__bg {
+  background-color: var(--first-color-second);
+  padding-top: 3rem;
+}
+
+.project__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.project__description {
+  margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description {
+  color: #FFF;
+}
+
+.project__img {
+  width: 232px;
+  justify-self: center;
+}
 
 /*==================== TESTIMONIAL ====================*/
 
