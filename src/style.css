@@ -726,6 +726,10 @@ img {
   margin-bottom: var(--mb-0-5);
 }
 
+.portfolio__data {
+  padding: inherit;
+}
+
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
 }
@@ -792,7 +796,48 @@ img {
 }
 
 /*==================== TESTIMONIAL ====================*/
+.testimonial__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
+.testimonial__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: var(--mb-1);
+}
+
+.testimonial__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: var(--mb-0-75);
+}
+
+.testimonial__name {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+.testimonial__client {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.testimonial__description {
+  /* margin-bottom: var(--mb-2-5); */
+  margin: revert;
+}
+
+.testimonial__icon-star {
+  color: var(--first-color);
+}
+
+.testimonial__container .swiper-pagination-testimonial {
+  bottom: 0;
+}
 
 /*==================== CONTACT ME ====================*/
 
