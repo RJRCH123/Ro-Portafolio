@@ -298,7 +298,8 @@ img {
 }
 
 .home__blob {
-  width: 200px;
+  /* width: 200px; */
+  width: 100%;
   fill: var(--first-color);
 }
 
@@ -404,8 +405,8 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img{
-  width: 284px;
-  border-radius: 100%;
+  /* width: 284px; */
+  border-radius: 2rem;
   justify-self: center;
   align-self: center;
   background-color: var(--first-color);
@@ -752,7 +753,7 @@ img {
 }
 
 .portfolio__img {
-  width: 265px;
+  width: 300px;
   border-radius: .5rem;
   justify-self: center;
 }
@@ -1187,9 +1188,9 @@ img {
     column-gap: 5rem;
   }
 
-  .about__img {
+/*   .about__img {
     width: 350px;
-  }
+  } */
 
   .about__description {
     text-align: initial;
@@ -1233,7 +1234,7 @@ img {
   }
 
   .portfolio__img {
-    width: 320px;
+    width: 500px;
   }
 
   .portfolio__content {
