@@ -810,7 +810,7 @@ img {
 
 .project__bg {
   background-color: var(--first-color-second);
-  padding-top: 3rem;
+  padding: 2rem;
 }
 
 .project__title {
@@ -828,8 +828,9 @@ img {
 }
 
 .project_img {
-  width: 232px;
+  width: 400px;
   justify-self: center;
+  border-radius: 1rem;
 }
 
 /*==================== TESTIMONIAL ====================*/
@@ -1248,12 +1249,14 @@ img {
   .project__container {
     background-color: var(--first-color-second);
     border-radius: 1rem;
-    padding: 3rem 2.5rem 0;
+    padding: 3rem 2.5rem;
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
   }
 
   .project__data {
+    align-items: center;
+    display: flex;
     padding-top: .8rem;
   }
 
