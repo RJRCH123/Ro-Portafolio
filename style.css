@@ -511,51 +511,67 @@ img {
 }
 
 .skills__html {
-  width:90%;
+  width:85%;
 }
 
 .skills__css {
-  width:80%;
+  width:85%;
 }
 
 .skills__js {
-  width:60%;
+  width:70%;
 }
 
 .skills__react {
-  width:85%;
+  width:65%;
+}
+
+.skills__vue {
+  width:45%;
 }
 
 .skills__reactNative {
   width:45%;
 }
 
-.skills__php {
-  width:80%;
-}
-
 .skills__node {
-  width:70%;
+  width:50%;
 }
 
 .skills__python {
-  width:55%;
+  width:45%;
 }
 
 .skills__firebase {
-  width:90%;
+  width:70%;
 }
 
 .skills__figma {
-  width:90%;
+  width:75%;
 }
 
-.skills__sketh {
+.skills__canva {
   width:85%;
 }
 
 .skills__photoshop {
-  width:85%;
+  width:65%;
+}
+
+.skills__bootstrap {
+  width:45%;
+}
+
+.skills__ui {
+  width:35%;
+}
+
+.skills__tailwind {
+  width:45%;
+}
+
+.skills__sass {
+  width:75%;
 }
 
 .skills__close .skills__list {
@@ -1218,7 +1234,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 218px);
+    grid-template-columns: repeat(2, 300px);
     justify-content: center;
   }
 
@@ -1297,7 +1313,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(2, 300px);
   }
 
   .portfolio__content {
