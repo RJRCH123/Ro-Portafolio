@@ -303,7 +303,7 @@ img {
 }
 
 .home__blob-img {
-  width: 184px;
+  width: 174px;
 }
 
 .home__data {
@@ -523,6 +523,10 @@ img {
 
 .skills__react {
   width:85%;
+}
+
+.skills__reactNative {
+  width:45%;
 }
 
 .skills__php {
@@ -1095,7 +1099,7 @@ img {
 
   .about__container,
   .skills__container,
-  .portfolio__content,
+/*   .portfolio__content, */
   .project__container,
   .contact__container {
     grid-template-columns: repeat(2, 1fr);
@@ -1314,5 +1318,9 @@ img {
 }
 
 .contact__social i {
+  color: var(--first-color);
+}
+
+.social__icon-demo {
   color: var(--first-color);
 }
