@@ -1481,6 +1481,7 @@ img {
 
 .flex__project {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 1rem;
+  margin: 2rem 0 0;
 }
