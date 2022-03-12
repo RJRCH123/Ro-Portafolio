@@ -574,6 +574,10 @@ img {
   width:75%;
 }
 
+.skills__charts {
+  width:55%;
+}
+
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
@@ -1343,4 +1347,13 @@ img {
 
 .social__icon-demo {
   color: var(--first-color);
+}
+
+.tech__icon {
+  width: 2rem;
+}
+
+.flex__tech {
+  display: flex;
+  gap: 1rem;
 }
