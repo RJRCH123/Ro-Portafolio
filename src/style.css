@@ -410,6 +410,8 @@ img {
   justify-self: center;
   align-self: center;
   background-color: var(--first-color);
+  box-shadow: rgb(0 0 0 / 24%) 0px 6px 12px;
+
 }
 .about__description {
   text-align: center;
@@ -884,6 +886,7 @@ img {
   background-color: var(--container-color);
   padding: 1rem;
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .work__img {
@@ -1097,7 +1100,7 @@ img {
 /*========== SCROLL BAR ==========*/
 ::-webkit-scrollbar{
   width: 5px;
-  background-color: var(--scroll-bar-color);
+  /* background-color: var(--scroll-bar-color); */
   border-radius: .5rem;
 }
 
@@ -1211,6 +1214,9 @@ img {
   .home__img {
     order: 1;
     justify-self: center;
+/*     -webkit-filter: drop-shadow(5px 8px 3px rgba(0,0,0,.253)); */
+    filter: drop-shadow(4px 5px 6px rgba(0,0,0,.253));
+    width: 100%;
   }
 
   .about__container,
@@ -1360,6 +1366,7 @@ img {
 
   .portfolio__img {
     width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
   .portfolio__content {
@@ -1469,5 +1476,11 @@ img {
 
 .flex__tech {
   display: flex;
+  gap: 1rem;
+}
+
+.flex__project {
+  display: flex;
+  justify-content: space-between;
   gap: 1rem;
 }
