@@ -1466,6 +1466,12 @@ img {
   color: var(--first-color);
 }
 
+
+
+.contact__icon:hover {
+  transform: scale(1.5);
+}
+
 .social__icon-demo {
   color: var(--first-color);
 }
