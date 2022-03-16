@@ -22,7 +22,7 @@
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Rosamaria</a>
+        <a href="#about" class="nav__logo">Rosamaria</a>
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
@@ -110,7 +110,7 @@
             <div class="home__data">
               <h1 class="home__title">¡Hola, soy Rosamaria!</h1>
               <h3 class="home__subtitle">Frontend developer con noción en diseño UX / UI</h3>
-              <p class="home__description">Enfocada en el desarrollo de aplicaciones web con un skill innovador que garantiza una buena experiencia de usuario. </p>
+              <p class="home__description">Enfocada en el desarrollo de aplicaciones web y maquetación de correos con un skill innovador que garantiza una buena experiencia de usuario. </p>
               <a href="#contact" class="button button--flex">
                 Contáctame <i class="uil uil-message button__icon"></i>
               </a>
@@ -136,7 +136,7 @@
           <img src="./img/me/h.jpg" alt="Me" class="about__img">
           <div class="about__data">
             <p class="about__description">
-              Profesional en Frontend Developer de Laboratoria, enfocada en el desarrollo de aplicaciones Web que garantizan una buena experiencia de usuario, realizadas con tecnologías ágiles. Mis competencias resaltantes son: Creatividad para encontrar soluciones innovadoras, adaptable a diversos entornos organizacionales y orientada en la mejora contínua. 
+              Profesional en Frontend Developer de Laboratoria, enfocada en el desarrollo de aplicaciones Web y maquetación de correos que garantizan una buena experiencia de usuario, realizadas con tecnologías ágiles. Mis competencias resaltantes son: Creatividad para encontrar soluciones innovadoras, adaptable a diversos entornos organizacionales y orientada en la mejora contínua. 
             </p>
             <div class="about__info">
               <div>
@@ -743,10 +743,11 @@
         <span class="section__subtitle">Proyectos realizados</span>  
 
         <div class="work__filters">
-          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item active-work" data-filter="all">Todos</span>
           <span class="work__item" data-filter=".web">Web</span>
-          <span class="work__item" data-filter=".responsive">Movil</span>
-          <span class="work__item" data-filter=".design">Design</span>
+          <span class="work__item" data-filter=".responsive">Responsive</span>
+          <span class="work__item" data-filter=".design">Diseño</span>
+          <span class="work__item" data-filter=".email">Correos</span>
         </div>
 
         <div class="work__container container grid">
@@ -1025,15 +1026,19 @@
         <div class="contact__container container grid">
           <div>
             <div class="contact__information">
-              <i class="uil uil-phone-pause contact__icon"></i>
+              <a href="https://wa.me/51922924210" class="contact__icon" target="_blank">
+                <i class="uil uil-whatsapp contact__icon"></i>
+              </a>
               <div>
-                <h3 class="contact__title">Número de Celular</h3>
+                <h3 class="contact__title">WhatsApp</h3>
                 <span class="contact__subtitle">+51 922-924-210</span>
               </div>
             </div>
 
             <div class="contact__information">
-              <i class="uil uil-envelope contact__icon"></i>
+              <a href="mailto:rosamaria.developer@gmail.com" class="contact__icon" target="_blank">
+                <i class="uil uil-envelope contact__icon"></i>
+              </a>
               <div>
                 <h3 class="contact__title">Email</h3>
                 <span class="contact__subtitle">rosamaria.developer@gmail.com</span>
@@ -1049,22 +1054,16 @@
             </div>
 
             <div class="footer__socials contact__social">
-              <a href="@https://twitter.com/rosamaria_dev" target="_blank" class="footer__social">
+              <a href="@https://twitter.com/rosamaria_dev" target="_blank" class="footer__social ">
                 <i class="uil uil-twitter-alt"></i>
               </a>
-              <a href="https://www.linkedin.com/in/rosamaria-rodriguez/" target="_blank" class="footer__social">
+              <a href="https://www.linkedin.com/in/rosamaria-rodriguez/" target="_blank" class="footer__social ">
                 <i class="uil uil-linkedin-alt"></i>
               </a>
-              <a href="https://www.instagram.com/rosamaria_dev/" target="_blank" class="footer__social">
+              <a href="https://www.instagram.com/rosamaria_dev/" target="_blank" class="footer__social ">
                 <i class="uil uil-instagram"></i>
               </a>
-              <a href="mailto:rosamaria.developer@gmail.com" target="_blank" class="footer__social">
-                <i class="uil uil-envelope"></i>
-              </a>
-              <a href="https://wa.me/51922924210" target="_blank" class="footer__social">
-                <i class="uil uil-whatsapp"></i>
-              </a>
-              <a href="https://github.com/RJRCH123" target="_blank" class="footer__social">
+              <a href="https://github.com/RJRCH123" target="_blank" class="footer__social ">
                 <i class="uil uil-github-alt"></i>
               </a>
             </div>
@@ -1113,13 +1112,13 @@
           </div>
           <ul class="footer__links">
             <li>
-              <a href="#services" class="footer__link">Services</a>
+              <a href="#services" class="footer__link">Servicios</a>
             </li>
             <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
+              <a href="#portfolio" class="footer__link">Portafolio</a>
             </li>
             <li>
-              <a href="#contact" class="footer__link">Contactme</a>
+              <a href="#contact" class="footer__link">Contáctame</a>
             </li>
           </ul>
 
