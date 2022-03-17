@@ -163,3 +163,12 @@
     color: var(--body-color);
   }
   
+  .flex_info_project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon_info:hover {
+    color: var(--first-color);
+  }

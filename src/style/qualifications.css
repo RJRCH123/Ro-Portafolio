@@ -81,7 +81,7 @@
   
   .flex__project {
     display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
+    justify-content: center;
+    gap: 0.5rem;
     margin: 2rem 0 0;
   }
