@@ -85,3 +85,10 @@
     gap: 0.5rem;
     margin: 2rem 0 0;
   }
+
+  .flex__project-techs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
