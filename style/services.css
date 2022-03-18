@@ -33,6 +33,7 @@
   .services__button{
     cursor: pointer;
     font-size: var(--small-font-size);
+    font-size: large;
   }
   
   .services__button:hover .button__icon {
