@@ -209,3 +209,19 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== EMAILJS  ====================*/
+
+function sendEmail(params) {
+  var tempParams = {
+    from_name: document.getElementById('names').value,
+    from_email: document.getElementById('emails').value,
+    messaje: document.getElementById('messages').value,
+    subject: document.getElementById('subjects').value,
+  };
+
+  emailjs.send('gmail', 'template_t5zyumo', tempParams)
+  .then(function(res){
+    console.log('success', res.status)
+  })
+}
